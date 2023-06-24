@@ -42,6 +42,8 @@ public class CustomerServiceImpl implements CustomerService {
 		//Book the driver with lowest driverId who is free (cab available variable is Boolean.TRUE). If no driver is available, throw "No cab available!" exception
 		//Avoid using SQL query
 
+		TripBooking tripBooking = null;
+		return tripBooking;
 	}
 
 	@Override
